@@ -30,6 +30,7 @@ function init() {
         JSON.parse('{"name":"avocado", "img":"https://cdn.pixabay.com/photo/2016/03/05/19/03/appetite-1238257_1280.jpg"}'),
         JSON.parse('{"name":"orange", "img":"https://cdn.pixabay.com/photo/2016/03/05/22/17/food-1239233_1280.jpg"}'),
         JSON.parse('{"name":"watermelon", "img":"https://cdn.pixabay.com/photo/2015/06/19/16/48/watermelon-815072_1280.jpg"}'),
+        JSON.parse('{"name":"melon", "img":"https://cdn.pixabay.com/photo/2016/03/05/22/31/food-1239303_1280.jpg"}'),
         JSON.parse('{"name":"grapes", "img":"https://cdn.pixabay.com/photo/2020/01/30/07/00/grapes-4804531_960_720.jpg"}'),
         JSON.parse('{"name":"pineapple", "img":"https://cdn.pixabay.com/photo/2015/02/14/18/10/pineapple-636562_1280.jpg"}'),
         JSON.parse('{"name":"peach", "img":"https://cdn.pixabay.com/photo/2017/08/01/08/11/food-2563403_1280.jpg"}'),
