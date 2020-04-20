@@ -20,7 +20,6 @@ body {
 
 .label {
   background-color: #e59d22;
-  display: inline-block;
   height: 100%;
   width: calc(90vh*.1);
   text-align: center;
