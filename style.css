@@ -57,6 +57,9 @@ body {
   color: black;
   background-position: center;
 }
+.fruit:hover {
+  cursor: grab;
+}
 
 .fruit div {
   height: 70%;
