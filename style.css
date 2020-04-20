@@ -13,6 +13,9 @@ body {
 .row {
   border: 2px solid lightgray;
   height: 10%;
+  overflow-x: auto;
+  overflow-y: none;
+  white-space: nowrap;
 }
 
 .label {
@@ -23,11 +26,40 @@ body {
   text-align: center;
   line-height: calc(90vh*.1);
   margin-right: 5px;
+  float: left;
 }
 .row:first-of-type .label {
   background-color: #a949c1;
 }
+.row:last-of-type {
+  height: 13%;
+}
 .row:last-of-type .label {
   background-color: white;
   color: black;
+}
+
+.container {
+  background-color: #555;
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.fruit {
+  display: inline-block;
+  margin: 1px;
+  padding: 2px;
+  height: 100%;
+/*   height: calc((90vh*.1) - 6px); */
+  min-width: calc((90vh*.1) - 6px);
+  background-color: white;
+  color: black;
+  background-position: center;
+}
+
+.fruit div {
+  height: 70%;
+  background-size: cover;
+  background-position: center;
 }
