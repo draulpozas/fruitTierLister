@@ -60,8 +60,8 @@ function init() {
             let fruit = JSON.parse(ev.dataTransfer.getData('fruit'));
             let prevParentId = ev.dataTransfer.getData('prevParentId');
 
-            container.appendChild(createFruitNode(fruit));
             if (container.id != prevParentId) {
+                container.appendChild(createFruitNode(fruit));
                 removeFruit(document.getElementById(prevParentId), fruit.name);
             }
         }
