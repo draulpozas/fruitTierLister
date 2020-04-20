@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: space-around;
+}
+.row {
+  border: 2px solid lightgray;
+  height: 10%;
+}
+
+.label {
+  background-color: #e59d22;
+  display: inline-block;
+  height: 100%;
+  width: calc(90vh*.1);
+  text-align: center;
+  line-height: calc(90vh*.1);
+  margin-right: 5px;
+}
+.row:first-of-type .label {
+  background-color: #a949c1;
+}
+.row:last-of-type .label {
+  background-color: white;
+  color: black;
+}
