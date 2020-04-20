@@ -58,9 +58,12 @@ function init() {
         container.ondrop = function(ev) {
             ev.preventDefault();
             let fruit = JSON.parse(ev.dataTransfer.getData('fruit'));
+            let prevParentId = ev.dataTransfer.getData('prevParentId');
 
             container.appendChild(createFruitNode(fruit));
-            removeFruit(document.getElementById(ev.dataTransfer.getData('prevParentId')), fruit.name);
+            if (container.id != prevParentId) {
+                removeFruit(document.getElementById(prevParentId), fruit.name);
+            }
         }
     });
 }
